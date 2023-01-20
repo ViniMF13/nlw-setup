@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Atomic Habits</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/logo.svg" alt="" />
+      <button>
+        <img src="./assets/icon-plus.svg" alt="" />
+
+        Register day
+      </button>
+    </header>
+
+    <div class="section">
+      <form action="">
+        <div class="habits">
+          <div class="habit" data-name="workout">
+            <img
+              src="./assets/workout.png"
+              title="at least 40min of exercise"
+            />
+          </div>
+          <div class="habit" data-name="read">
+            <img src="./assets/book.png" title="1 hour of reading" />
+          </div>
+          <div class="habit" data-name="dieta">
+            <img src="./assets/bananas.png" title="3200ckal" />
+          </div>
+          <div class="habit" data-name="water">
+            <img src="./assets/garrafa-de-agua.png" title="2,5l of water" />
+          </div>
+          <div class="habit" data-name="sleep">
+            <img src="./assets/sleeping.png" title="wake up before 8:00-am" />
+          </div>
+        </div>
+
+        <div class="days"></div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
